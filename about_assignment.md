@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Detailed Problem Statement
-relative_url: "about"
-permalink: "about_assignment"
+# relative_url: "/about_assignment"
+custom_url: "./about_assignment.html"
 ---
 **(Problem Statement as given to the students)**
 
@@ -31,44 +31,44 @@ The following are the analysis themes to choose from.
   - Campus energy consumption data – 2020+2021 (monthly aggregate).    
         For reference and possible use, here (Dataset Link removed for Confidentiality) is the energy consumption data for all Indian states.  
 
-- Telling the story of India
+- Telling the story of India    
     A lot of official datasets are available at – Open Government Data (OGD) Platform India 
     You need to decide on a sector and choose a dataset from there. As an example, for the education sector, you can navigate to the following page for the datasets.  
     https://data.gov.in/dataset-group-name/school-education-statistics 
 
-- Charting the growth of AI in different countries
+- Charting the growth of AI in different countries   
     Can we take the top ML conferences in the last few years, get the author institutions and countries, and summarize the leaders / rising institutions/trends? E.g. this report – The race to the top among the world's leaders in artificial intelligence   
     Dataset for NeurIPS – All NeurIPS (NIPS) Papers | Kaggle 
     Other conferences – https://github.com/martenlienen/icml-nips-iclr-dataset
 
-- World inequality and how it has changed 
+- World inequality and how it has changed   
 
-- World inequality dataset 
+- World inequality dataset   
     https://wid.world/ 
 
-- How are different countries developing?
+- How are different countries developing?  
     Various country-level statistics collected by UN. You can ask questions e.g. how well are the different countries doing on the various developmental goals and how are they making progress. 
     https://unstats.un.org/home/ 
     https://unstats-undesa.opendata.arcgis.com/ 
 
-- Looking at Primary Education across multiple countries 
+- Looking at Primary Education across multiple countries   
     PISA is a well-known test for measuring how well a particular country is doing in providing quality education. There are data available across years at – https://www.oecd.org/pisa/data/ 
     You can talk about how the indicators for specific countries have changed over time. Participating countries are available at https://www.oecd.org/pisa/aboutpisa/pisa-participants.htm 
 
 
-- How are vaccination drives going + the inequalities underneath 
+- How are vaccination drives going + the inequalities underneath   
     Dataset on worldwide covid19 vaccinations https://www.nature.com/articles/s41562-021-01122-8
     A broader dataset for covid-19 (for current vaccination theme) can be found at: https://github.com/owid/covid-19-data/tree/master/public/data 
     https://www.kaggle.com/datasets/gpreda/covid-world-vaccination-progress 
 
-- Effects of Economy, natural resources distribution, government policies on CO2 emissions by countries  
+- Effects of Economy, natural resources distribution, government policies on CO2 emissions by countries    
     CO2 emissions dataset: https://github.com/owid/co2-data
 
-- Prevalence and reasons of childhood stunting in India (malnutrition, child diseases, sanitation, etc.)
+- Prevalence and reasons of childhood stunting in India (malnutrition, child diseases, sanitation, etc.)   
     World Bank datasets: https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=IN, https://data.worldbank.org/indicator/SH.STA.ORTH?locations=IN
     WHO datasets: https://www.who.int/data/gho/data/themes/theme-details/GHO/gho-nutrition
 
-- Neglected Tropical Diseases in Africa and their eradication  
+- Neglected Tropical Diseases in Africa and their eradication    
     WHO datasets: https://www.who.int/data/gho/data/themes/neglected-tropical-diseases
 - Maternal and Reproductive Health  
     WHO datasets: https://www.who.int/data/gho/data/themes/maternal-and-reproductive-health 

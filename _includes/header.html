@@ -20,12 +20,12 @@
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
-            {%- if my_page.custom_url -%}
-            <a class="page-link" href="{{my_page.custom_url}}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
-            {%- if my_page.relative_url -%}
-            <a class="page-link" href="/{{my_page.relative_url}}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
+              {%- if my_page.custom_url -%}
+              <a class="page-link" href="{{my_page.custom_url}}">{{ my_page.title | escape }}</a>
+              {%- endif -%}
+              {%- if my_page.relative_url -%}
+              <a class="page-link" href="{{my_page.custom_url | my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+              {%- endif -%}
             {%- endif -%}
           {%- endfor -%}
         </div>
