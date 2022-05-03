@@ -2,7 +2,7 @@
 layout: page
 title: Detailed Problem Statement
 relative_url: "about"
-permalink: "about"
+permalink: "about_assignment"
 ---
 **(Problem Statement as given to the students)**
 
