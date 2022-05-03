@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Detailed Problem Statement
+title: Assignment Details
 # relative_url: "/about_assignment"
 custom_url: "./about_assignment.html"
 ---
